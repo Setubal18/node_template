@@ -1,0 +1,27 @@
+{
+	"name": "node_template_ts",
+	"version": "1.0.0",
+	"description": "Template backend com typescript",
+	"main": "index.ts",
+	"scripts": {
+		"tsc": "tsc",
+		"lint": "tslint tslint.json 'src/**",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "ts-node-dev --respawn --transpileOnly src/index.ts"
+	},
+	"keywords": [
+		"typescript",
+		"nodejs"
+	],
+	"author": "Leonardo Setubal",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^14.0.5"
+	},
+	"devDependencies": {
+		"prettier-tslint": "^0.4.2",
+		"ts-node-dev": "^1.0.0-pre.44",
+		"tslint": "^6.1.2",
+		"typescript": "^3.9.3"
+	}
+}
