@@ -1,7 +1,3 @@
-function teste() {
-	console.log('teste')
-}
+import expressServer from "./config/server"
 
-function teste2() {
-	console.log('teste2')
-}
+expressServer.initServer()
