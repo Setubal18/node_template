@@ -2,6 +2,10 @@
 
 Descrição
 
+## .Env
+
+Altere .envExemple para .env e altere as informações contidas.
+
 ## Tipos de commit
 
 | Tipo de commit | Descrição                | Release                                                                                                                     |
@@ -28,6 +32,9 @@ Descrição
 > A lista de dependências abaixo não leva em consideração pacotes essenciais para o workflow, como por exemplo, os que possuam prefixos e `@types`, including `rxjs`, `tslib` e `zone.js`
 
 - [ts-node-dev](https://www.npmjs.com/package/ts-node-dev): Re-inicia o processo node quando um arquivo e atualizado.
+- [Express](https://www.npmjs.com/package/express): Minimalista web framework para node.
+- [DotEnv](https://www.npmjs.com/package/dotenv): Modulo para carregar as variável de ambiente.
+- [Cors](https://www.npmjs.com/package/cors): Pacote que permite habilitar CORS.
 
 ## Servidor de desenvolvimento
 
