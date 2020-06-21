@@ -4,7 +4,7 @@ import routes from "../routes/routes"
 // In case you need to import the connection with your database
 // import connectionBD from '../database/connection'
 import cors from 'cors'
-import { port_serve } from './enviroments'
+import { port_serve } from './environments'
 export default new class ExpressServer {
 	private app: any
 
